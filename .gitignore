@@ -3,3 +3,5 @@ node_modules
 
 # test coverage dir
 coverage
+
+package-lock.json
