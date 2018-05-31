@@ -7,13 +7,18 @@
     "lint": "eslint src",
     "test": "jest --config jest.config.js --color",
     "test:watch": "npm run test -- --watch",
-    "validate": "npm-run-all --parallel lint test"
+    "validate": "npm-run-all --parallel lint test",
+    "commit": "git-cz"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/theashraf/starwars-names-theashraf.git"
   },
-  "keywords": ["starwars", "random", "array"],
+  "keywords": [
+    "starwars",
+    "random",
+    "array"
+  ],
   "author": "Abdelrahman",
   "license": "MIT",
   "bugs": {
@@ -24,6 +29,8 @@
     "unique-random-array": "1.0.1"
   },
   "devDependencies": {
+    "commitizen": "2.10.1",
+    "cz-conventional-changelog": "2.1.0",
     "eslint": "4.19.1",
     "eslint-config-kentcdodds": "13.0.1",
     "ghooks": "2.0.4",
@@ -33,6 +40,9 @@
   "config": {
     "ghooks": {
       "pre-commit": "npm run validate"
+    },
+    "commitizen":{
+      "path":"cz-conventional-changelog"
     }
   }
 }
