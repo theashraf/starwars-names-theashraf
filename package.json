@@ -1,0 +1,38 @@
+{
+  "name": "starwars-names-theashraf",
+  "version": "1.0.0",
+  "description": "list starwars names in a cool way",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint src",
+    "test": "jest --config jest.config.js --color",
+    "test:watch": "npm run test -- --watch",
+    "validate": "npm-run-all --parallel lint test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theashraf/starwars-names-theashraf.git"
+  },
+  "keywords": ["starwars", "random", "array"],
+  "author": "Abdelrahman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theashraf/starwars-names-theashraf/issues"
+  },
+  "homepage": "https://github.com/theashraf/starwars-names-theashraf#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "4.19.1",
+    "eslint-config-kentcdodds": "13.0.1",
+    "ghooks": "2.0.4",
+    "jest": "23.1.0",
+    "npm-run-all": "4.1.3"
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "npm run validate"
+    }
+  }
+}

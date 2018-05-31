@@ -1,0 +1,12 @@
+{
+  "env": {
+    "node": true,
+    "browser": true
+  },
+  "extends": [
+    "kentcdodds/possible-errors",
+    "kentcdodds/best-practices",
+    "kentcdodds/jest"
+  ],
+  "rules": {}
+}
