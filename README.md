@@ -1,5 +1,10 @@
 # starwars-names-theashraf
 
+
+![Travis](https://img.shields.io/travis/theashraf/starwars-names-theashraf.svg?style=flat-square) 
+![Codecov](https://img.shields.io/codecov/c/github/theashraf/starwars-names-theashraf.svg?style=flat-square)
+
+
 ## Features
 * list all starwars names 
 * returns a random starwars name
