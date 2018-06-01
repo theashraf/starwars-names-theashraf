@@ -1,7 +1,4 @@
-# node modules dir
 node_modules
-
-# test coverage dir
+dist
 coverage
-
 package-lock.json

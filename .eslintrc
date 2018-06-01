@@ -6,6 +6,7 @@
   "extends": [
     "kentcdodds/possible-errors",
     "kentcdodds/best-practices",
+    "kentcdodds/es6",
     "kentcdodds/jest"
   ],
   "rules": {}
