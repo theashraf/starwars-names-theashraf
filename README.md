@@ -12,7 +12,7 @@ npm i starwars-names-theashraf
 
 ## Usage
 ```javascript
-const starwars = require("starwars-names-theashraf);
+const starwars = require("starwars-names-theashraf");
 starwars.all; // return all starwars names
 starwars.random(); // return a random starwars name 
 ```
