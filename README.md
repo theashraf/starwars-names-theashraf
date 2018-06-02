@@ -1,8 +1,13 @@
 # starwars-names-theashraf
 
 
+[![npm](https://img.shields.io/npm/v/starwars-names-theashraf.svg?style=flat-square)](https://www.npmjs.com/package/starwars-names-theashraf)
 ![Travis](https://img.shields.io/travis/theashraf/starwars-names-theashraf.svg?style=flat-square) 
 ![Codecov](https://img.shields.io/codecov/c/github/theashraf/starwars-names-theashraf.svg?style=flat-square)
+[![license](https://img.shields.io/github/license/theashraf/starwars-names-theashraf.svg?style=flat-square)](https://github.com/theashraf/starwars-names-theashraf/blob/master/LICENSE)
+[![npm](https://img.shields.io/npm/dw/starwars-names-theashraf.svg?style=flat-square)](https://www.npmjs.com/package/starwars-names-theashraf)
+
+
 
 
 ## Features
